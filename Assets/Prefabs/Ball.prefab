@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4082229688683138717}
   - component: {fileID: 2136739302077556612}
   - component: {fileID: 768256991854556551}
-  - component: {fileID: 7014587156325182573}
   m_Layer: 6
   m_Name: Ball
   m_TagString: Ball
@@ -141,15 +140,3 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &7014587156325182573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8330245147610892653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf77164c3a374b4889e8bd7f339b9160, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Core.BallProjectile

@@ -32,7 +32,18 @@
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Keyboard&Mouse;Touch",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b909e5fd-3ac8-430b-a7e9-36a18d174ca7",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Touch",
                     "action": "Shoot",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -44,6 +55,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse;Touch",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a82ee5a7-0aef-4bc0-b5d4-af2ba7c96c0e",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Touch",
                     "action": "Aim",
                     "isComposite": false,
                     "isPartOfComposite": false
