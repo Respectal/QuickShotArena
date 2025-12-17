@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeee66a3324b93b4784d1e7d89f187dc, type: 3}
+  m_Name: BallShooterConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.BallShooterConfig
+  trajectoryPoints: 40
+  timeStep: 1
+  powerCycleSpeed: 0.6
+  powerMin: 0.01
+  powerMax: 0.12
+  reloadDelay: 1
+  ballLifeSpan: 20
+  ball: {fileID: 8330245147610892653, guid: 93d860398cf20824797b8369bae6a4f5, type: 3}
+  tileSolid: {fileID: 1584946239707987156, guid: d8d4f5982634fbc4aa446ca21aadf618, type: 3}

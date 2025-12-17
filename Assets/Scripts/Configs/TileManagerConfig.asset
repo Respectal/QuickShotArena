@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03cdd4b189ce41eeac2ecacbe976dc14, type: 3}
+  m_Name: TileManagerConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.TileManagerConfig
+  tileSolid: {fileID: 1584946239707987156, guid: d8d4f5982634fbc4aa446ca21aadf618, type: 3}
+  tileHole: {fileID: 6559083118415162875, guid: d95d25f5d8184db499592959a127f084, type: 3}
+  height: 12
+  width: 9
+  wallPrefab: {fileID: 2596433211658353271, guid: aa3e9bfaed0baa14c9cd795cca0163e9, type: 3}
+  wallHeight: 1.5
+  wallThickness: 0.4
+  holeCount: 10
+  holeRadius: 0.75
+  minHoleDistance: 2.5
