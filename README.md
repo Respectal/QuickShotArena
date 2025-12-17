@@ -20,7 +20,7 @@ A fast-paced mini-golf game built with Unity where players shoot balls into hole
 - **GameScene** - Main gameplay level
 - **GameOverScene** - Results and restart options
 
-- ## Building
+## Building
 
 Ensure you have `Unity Editor 6000.3.1f1` or compatible version installed.
 
