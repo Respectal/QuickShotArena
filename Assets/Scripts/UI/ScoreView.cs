@@ -6,12 +6,11 @@ namespace UI
 {
     public class ScoreView : MonoBehaviour
     {
-        [SerializeField] private ScoreManager scoreManager;
         [SerializeField] private TextMeshProUGUI text;
 
         private void Update()
         {
-            UpdateText(scoreManager.CurrentScore);
+            UpdateText(ScoreManager.Instance.CurrentScore);
         }
 
         private void UpdateText(int score)

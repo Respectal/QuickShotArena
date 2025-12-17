@@ -17,8 +17,6 @@ namespace Gameplay
 
         void Start()
         {
-            _reloadAction = InputSystem.actions.FindAction("Restart");
-
             var tileSize = GetTileSize();
             var startX = tileSize.x * config.width * 0.5f;
             transform.position = new Vector3(startX, 2, 0);
@@ -28,19 +26,6 @@ namespace Gameplay
             }
 
             GenerateMesh();
-        }
-
-        void Update()
-        {
-            if (_reloadAction.IsPressed())
-            {
-                foreach (Transform child in transform)
-                {
-                    Destroy(child.gameObject);
-                }
-                _holePositions.Clear();
-                GenerateMesh();
-            }
         }
         
         private void OnEnable()

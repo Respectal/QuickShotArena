@@ -18,6 +18,11 @@ namespace Gameplay
         {
             LastScore = CurrentScore;
         }
+
+        public void ResetScore()
+        {
+            _currentScore = 0;
+        }
         
         private void Awake()
         {

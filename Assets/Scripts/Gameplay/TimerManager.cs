@@ -68,8 +68,9 @@ namespace Gameplay
             
             GameEvents.RaiseGameOver();
             
-            // Save last score
+            // Save the last score and reset
             ScoreManager.Instance.SaveScore();
+            ScoreManager.Instance.ResetScore();
 
             // Load GameOver scene
             UnityEngine.SceneManagement.SceneManager.LoadScene("GameOverScene");
