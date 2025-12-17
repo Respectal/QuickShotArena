@@ -1,7 +1,7 @@
 # Golf QuickShot Arena
 <img width="1161" height="783" alt="image" src="https://github.com/user-attachments/assets/7b7bfac9-e2e7-4eda-8965-d30c972c82e4" />
 
-A fast-paced mini-golf game built with Unity where players shoot balls into holes to score points within time limits.
+A fast-paced mini-golf game built with Unity where player shoot balls into holes to score points within time limits.
 
 ## Features
 
